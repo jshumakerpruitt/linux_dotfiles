@@ -195,3 +195,4 @@ if [ -f ~/.inputrc.jasper ]; then
 fi
 
 export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"

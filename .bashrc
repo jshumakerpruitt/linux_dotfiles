@@ -131,7 +131,6 @@ export EDITOR="emacsclient -t"                  # $EDITOR opens in terminal
 export VISUAL="emacsclient -t"         # $VISUAL opens in GUI mode
 
 # 2.4) grep options
-export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31' # green for matches
 
 # 2.5) sort options
@@ -194,3 +193,4 @@ fi
 
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
